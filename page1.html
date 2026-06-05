@@ -1,34 +1,69 @@
+<<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home of Karamu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
-    body {
-      background: #f4f4f4;
-      color: #222;
-    }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
 
-    .page {
-      max-width: 1200px;
-      margin: 0 auto;
-      background: white;
-      min-height: 100vh;
-      border: 2px solid #333;
-    }
+<h2>Three Equal Columns</h2>
 
-       nav a {
-      margin-left: 25px;
-      text-decoration: none;
-      color: #222;
-      font-weight: bold;
-    }
+<div class="row">
+  <div class="column" style="background-color:#695e5e;">
+    <h2>latest news</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#8d8a8a;">
+    <h2>about our team </h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#7a6f6f;">
+    <h2>link to basketball hawkesbay </h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Basic HTML code for Navbar</h2>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<p>Note: We use href="#" for links. In a real website this would be URLs.</p>
+
+</body>
+</html>
