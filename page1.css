@@ -1,1 +1,29 @@
+* {
+  box-sizing: border-box;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.custom-divider {
+  border: none;
+  border-top: 2px solid #ccc; /* Controls line thickness and color */
+  margin: 20px 0; /* Controls spacing above and below the line */
+  width: 80%; /* Controls the width of the line */
+  margin-left: auto;
+  margin-right: auto; /* Centers the line */
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
