@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -27,3 +31,5 @@
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
+ text-align center;
+
