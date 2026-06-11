@@ -6,6 +6,9 @@
   text-align: center;
 }
 
+.p1 {
+  font-size: 20px;
+}
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
