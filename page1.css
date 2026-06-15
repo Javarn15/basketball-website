@@ -9,12 +9,14 @@
 .p1 {
   font-size: 20px;
 }
+
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -34,5 +36,5 @@
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
- text-align center;
+
 
