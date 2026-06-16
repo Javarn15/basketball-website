@@ -36,5 +36,62 @@
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* Make list items horizontal */
+li {
+  float: left;
+}
+ 
+/* Style the links */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* Hover effect */
+li a:hover {
+  background-color: #111;
+}
+ 
+/* Active link */
+.active {
+  background-color: #04AA6D;
+}
 
+/* Image row (horizontal layout) */
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+    border-radius: 25px;;
+}
+ 
+/* Individual image containers */
+.image-row div {
+    flex: 1;
+}
+ 
+/* Images */
+.image-row img {
+    width: 100%;
+    border-radius: 8px;
+}
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
