@@ -9,7 +9,9 @@
 .p1 {
   font-size: 20px;
 }
-
+p2 {
+  font-size: 30px;
+}
 
 /* Create three equal columns that floats next to each other */
 .column {
