@@ -39,3 +39,24 @@ li a:hover {
 .h1 {
     font-size: 60px;
 }
+
+/* Image row (horizontal layout) */
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+    border-radius: 25px;;
+}
+ 
+/* Individual image containers */
+.image-row div {
+    flex: 1;
+}
+ 
+/* Images */
+.image-row img {
+    width: 100%;
+    border-radius: 8px;
+}
+
