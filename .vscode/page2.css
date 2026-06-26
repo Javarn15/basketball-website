@@ -44,19 +44,18 @@ li a:hover {
 .image-row {
     display: flex;
     justify-content: space-around;
-    gap: 50px;
-    margin-top: 50px;
-    border-radius: 25px;;
+    gap: 0px;
+    margin-top: 0px;
+    border-radius: 5px;;
 }
  
-/* Individual image containers */
-.image-row div {
-    flex: 1;
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
 }
  
-/* Images */
-.image-row img {
-    width: 100%;
-    border-radius: 8px;
+.photo-grid img {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 5px;
 }
-
